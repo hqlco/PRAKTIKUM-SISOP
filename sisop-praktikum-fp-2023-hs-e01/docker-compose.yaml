@@ -1,0 +1,30 @@
+version: '3'
+services:
+  Sukolilo:
+    image: leolco/storage-app:latest
+    networks:
+      - mynetwork
+    command: tail -f /dev/null
+  Keputih:
+    image: leolco/storage-app:latest
+    networks:
+      - mynetwork
+    command: tail -f /dev/null
+  Mulyos:
+    image: leolco/storage-app:latest
+    networks:
+      - mynetwork
+    command: tail -f /dev/null
+  Semolowaru:
+    image: leolco/storage-app:latest
+    networks:
+      - mynetwork
+    command: tail -f /dev/null
+  Gebang:
+    image: cobacoba3:latest
+    networks:
+      - mynetwork
+    command: tail -f /dev/null
+
+networks:
+  mynetwork:

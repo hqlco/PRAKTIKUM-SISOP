@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myservice:
+    image: rahasia_di_docker_e01
+    container_name : modul4_myservice_1
+    volumes:
+      - ./rahasia:/usr/share/rahasia
+    command: tail -f /dev/null

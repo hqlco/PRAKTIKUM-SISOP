@@ -1,0 +1,14 @@
+version: '3'
+services:
+  barcelona:
+   # container_name: barcelona
+    image: leolco/storage-app
+    command: tail -f /dev/null
+    deploy:
+      replicas: 5
+  napoli:
+    #container_name: napoli
+    image: leolco/storage-app
+    command: tail -f /dev/null
+    deploy:
+      replicas: 5
